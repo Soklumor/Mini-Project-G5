@@ -30,6 +30,71 @@ input{
     object-fit: cover;
 }
 
+header .navbar-brand .logo {
+    width: 80px;
+    height: 80px;
+}
+
+header .nav-offcavas .navbar {
+    background-color: var();
+}
+
+header .nav-offcavas .btn-search {
+    background-color: var(--bg-body-color) !important;
+}
+
+header .btn-image {
+    background-color: var(--bg-body-color);
+    padding: 10px;
+    border-radius: 100%;
+    color: var(--color-text-dark) !important;
+    width: 45px;
+    transition: 0.3s all linear;
+}
+
+header .notifica {
+    width: 21px;
+}
+
+header .navbar-nav {
+    text-align: start;
+}
+
+header .item-image .profile {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+header .form-control {
+    width: 400px !important;
+    line-height: 0.5 !important;
+}
+header .nav-link {
+    color: var(--color-text-light) !important;
+}
+header .offcanvas-body .navbar-nav .nav-item .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+header .form-control {
+    border: none !important;
+}
+header .icon-hover{
+    display: none;
+    
+}
+header .btn-image:hover{
+    opacity: 0;
+}
+header .btn-image:hover .icon-hover{
+    display: block;
+}
+
 .main-right .card-about{
     background-color: var(--bg-card-color);
 }
@@ -59,6 +124,7 @@ input{
 .main-right .card-about .card-body span .active{
     color: var(--color-text-active);
 }
+
 main{
     background-color: var(--bg-body-color);
     width: 100%;
@@ -159,4 +225,26 @@ main .main-left .card .tab-content .post-detail{
 
 main .main-left .card .comment-form{
     border: 1px solid #ddd;
+}
+
+@media (max-width:1024px) {
+    header .offcanvas-body .navbar-nav .nav-item .item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    header .nav-item .item {
+        margin-top: 15px;
+    }
+    header li .item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .text-black {
+        color: var(--bg-style-color) !important;
+    }
 }
