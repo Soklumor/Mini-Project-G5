@@ -58,6 +58,7 @@ input{
 
 .main-right .card-about .card-body span .active{
     color: var(--color-text-active);
+}
 main{
     background-color: var(--bg-body-color);
     width: 100%;
