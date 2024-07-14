@@ -30,6 +30,34 @@ input{
     object-fit: cover;
 }
 
+.main-right .card-about{
+    background-color: var(--bg-card-color);
+}
+
+.main-right .card-about .card-body p{
+    color: var(--color-text-light);
+}
+
+.main-right .card-about .card-body span p{
+    font-size: 16px;
+    margin-top: -4px;
+}
+
+.main-right .card-about .card-body h4{
+    font-weight: 550;
+}
+
+.main-right .card-about .card-header h4{
+    font-weight: 550;
+}
+
+.main-right .card-about .card-body span i{
+    color: var(--color-text-light);
+    background-color: transparent;
+}
+
+.main-right .card-about .card-body span .active{
+    color: var(--color-text-active);
 main{
     background-color: var(--bg-body-color);
     width: 100%;
